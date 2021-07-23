@@ -22,7 +22,7 @@ dependencies:
   - lz4
   - nomkl
   - nbserverproxy
-  - nodejs=10 
+  - nodejs 
   - jupyter
   - jupyterlab=0.35
   - jupyterlab_launcher
