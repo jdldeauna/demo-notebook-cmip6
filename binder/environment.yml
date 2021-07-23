@@ -23,7 +23,6 @@ dependencies:
   - nomkl
   - nbserverproxy
   - nodejs
-  - npm=7.20.1
   - jupyter
   - jupyterlab=0.35
   - jupyterlab_launcher
