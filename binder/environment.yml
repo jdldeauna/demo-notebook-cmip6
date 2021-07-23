@@ -22,13 +22,13 @@ dependencies:
   - lz4
   - nomkl
   - nbserverproxy
+  - nodejs
   - jupyter
   - jupyterlab=0.35
   - jupyterlab_launcher
   - jupyter_client
   - ipywidgets
-  - graphviz
-  - nodejs
+  - graphviz 
   - pip:
     - kubernetes
     - graphviz
