@@ -1,34 +1,31 @@
-name: pangeo
+name: notebook
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
-  - python=3.6*
-  - pip=20
   - cartopy
   - cftime
-  - xarray
-  - dask
-  - distributed
-  - dask-kubernetes
+  - dask-gateway>=0.9.0
+  - dask-kubernetes>=0.11.0
+  - dask-labextension
+  - dask>=2021.7
+  - distributed >=2021.7
+  - fsspec
   - gcsfs
-  - intake
-  - intake-esm
-  - intake-xarray
-  - zarr
-  - matplotlib
-  - numpy
-  - numcodecs
-  - python-blosc
-  - lz4
-  - nomkl
-  - nbserverproxy
-  - nodejs=14 
-  - jupyter
-  - jupyterlab=0.35
-  - jupyterlab_launcher
-  - jupyter_client
+  - hvplot
+  - intake-esm>=2021.1.15
   - ipywidgets
-  - graphviz 
+  - jupyter-server-proxy
+  - jupyterhub-singleuser
+  - jupyterlab>=3
+  - nbgitpuller
+  - nc-time-axis
+  - nodejs
+  - panel
+  - pip
+  - s3fs
+  - voila
+  - watermark
   - pip:
-    - kubernetes
-    - graphviz
+     - git+https://github.com/xgcm/xgcm.git@master#egg=xgcm
+     - ptime
