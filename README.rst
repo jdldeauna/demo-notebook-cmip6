@@ -7,7 +7,8 @@ Demo-Notebooks-CMIP6 lets you try out creating pretty plots from CMIP6 Earth Sys
 Try out a notebook by clicking on this icon: |Binder|
 
 Usage notes:
-2021 July 26 - If a message pops up after the Binder notebook loads, click `Cancel`
+
+2021 July 26 - If a message pops up after Binder loads, click **Cancel**
 
 See http://pangeo.io for more information.
 
