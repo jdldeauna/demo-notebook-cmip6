@@ -4,7 +4,10 @@ Demo-Notebooks-CMIP6
 
 Demo-Notebooks-CMIP6 lets you try out creating pretty plots from CMIP6 Earth System Model data.
 
-Try out a notebook on pangeo.binder.io_ by clicking on this icon: |Binder|
+Try out a notebook by clicking on this icon: |Binder|
+
+Usage notes:
+2021 July 26 - If a message pops up after the Binder notebook loads, click `Cancel`
 
 See http://pangeo.io for more information.
 
