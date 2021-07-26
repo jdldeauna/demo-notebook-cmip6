@@ -10,6 +10,7 @@ dependencies:
   - dask-labextension
   - dask>=2021.7
   - distributed >=2021.7
+  - git
   - fsspec
   - gcsfs
   - hvplot
