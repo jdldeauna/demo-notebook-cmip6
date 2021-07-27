@@ -10,7 +10,7 @@ Usage notes:
 
 **2021 July 26**
 
-- If a message pops up after Binder loads, click *Cancel*
+- If a dialog box pops up after Binder loads, click *Cancel*
 
 
 See http://pangeo.io for more information.
