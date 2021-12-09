@@ -2,7 +2,7 @@
 Demo-Notebooks-CMIP6
 =============================
 
-Demo-Notebooks-CMIP6 lets you try out creating pretty plots from CMIP6 Earth System Model data.
+Demo-Notebooks-CMIP6 lets you try out creating basic plots from CMIP6 Earth System Model data.
 
 Try out a notebook by clicking on this icon: |Binder|
 
