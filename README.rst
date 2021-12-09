@@ -17,12 +17,13 @@ See http://pangeo.io for more information.
 
 **2021 Dec 08**
 
-- Unfortunately Pangeo Binder is currently down (https://github.com/pangeo-data/pangeo-binder/issues/195) so the Binder badge doesn't work, but the notebooks should run on a standard Jupyter installtion. You may need to adjust dask settings, try replacing the dask_gateway code with the following:
+- Unfortunately Pangeo Binder is currently down (https://github.com/pangeo-data/pangeo-binder/issues/195) so the Binder badge doesn't work, but the notebooks should run on a standard Jupyter installtion. You may need to adjust dask settings, try replacing any dask_gateway code with the following:
 
-```python
-from dask.distributed import Client
-client = Client(n_workers=4)
-```
+
+``from dask.distributed import Client``
+
+``client = Client(n_workers=4)``
+
 
 
 
